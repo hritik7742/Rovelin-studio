@@ -294,6 +294,7 @@ footer .copyright {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-left: 15px;
 }
 
 .secondary:hover {
@@ -337,6 +338,29 @@ footer h2 {
     cursor: pointer;
     font-size: 1.5rem;
 }
+
+.bottam-nav{
+    display: flex;
+    letter-spacing: 3px;
+    justify-content: center;
+}
+
+.bottam-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.bottam-nav a:hover {
+    text-decoration: underline;
+}
+
+.bottam-nav li{
+    list-style: none;
+}
+
+
 
 nav {
     display: flex;
@@ -488,6 +512,68 @@ body {
     background-color: var(--secondary-color);
 }
 
+
+/* privacy police page  */
+
+
+/* PrivacyPolicy.css */
+
+.privacy-policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privacy-policy-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+  
+  .select-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .policy-content {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .policy-product-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .policy-text {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    color: white;
+  }
+  
+ 
+
+
+
+/* ================= */
+
+
+
 @media (max-width: 768px) {
     .pricing-container {
         padding: 1rem;
@@ -503,6 +589,10 @@ body {
 
     .pricing-grid {
         grid-template-columns: 1fr;
+    }
+    .bottam-nav{
+        display: block;
+        letter-spacing: 3px;
     }
 }
 
@@ -553,6 +643,12 @@ body {
         display: block;
     }
 
+
+
+
+    
+    
+    
     nav {
         display: none;
         position: absolute;
@@ -571,6 +667,28 @@ body {
     nav a {
         margin: 0.5rem 0;
     }
+
+    .bottam-nav{
+        display: block;
+        letter-spacing: 3px;
+    }
+
+
+    .privacy-policy-container {
+        padding: 15px;
+      }
+    
+      .privacy-policy-title {
+        font-size: 1.75rem;
+      }
+    
+      .policy-product-title {
+        font-size: 1.25rem;
+      }
+    
+      .product-select {
+        max-width: 100%;
+      }
 }
 
 
@@ -654,5 +772,10 @@ body {
 
     .our-products {
         margin: 20px;
+    }
+
+    .bottam-nav{
+        display: block;
+        letter-spacing: 3px;
     }
 }

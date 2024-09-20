@@ -1,6 +1,5 @@
 // File: src/components/RovelinStudio.js
 import React from 'react';
-import './RovelinStudio.css'
 import LeadSpry from '../images/Leadspry.png'
 import web from '../images/web.jpg'
 import Pricing from './Pricing';
@@ -8,6 +7,8 @@ import Ourproducts from './Ourproducts';
 import Navbar from './Navbar';
 import Contact from './Contact';
 import About from './About';
+import { Link } from 'react-router-dom';
+import './RovelinStudio.css'
 
 const RovelinStudio = () => {
 
@@ -59,6 +60,16 @@ const RovelinStudio = () => {
         <p className="contact-bio">
           At Rovelin Studio, our mission is to develop innovative software, apps, and extensions that solve global challenges and create meaningful impact. We are committed to delivering cutting-edge solutions that empower businesses and enhance lives worldwide.
         </p>
+        <div className='bottam-nav'  style={{display:"flex"}} >
+
+        <li><Link to="/">Home</Link></li>
+          <li><Link to="/About">About</Link></li>
+          <li><Link to="/Pricing">Pricing</Link></li>
+          <li><Link to="/Our-products">Our product</Link></li>
+          <li><Link to="/Privacy-policy">Privacy Policy</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
+
+        </div>
         <p className="copyright">© 2023 All Rights Reserved. Rovelin Studio</p>
       </footer>
     </div>

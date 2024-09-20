@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Pricing from './components/Pricing';
+import PrivacyPolicy from './components/Privacy';
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
             <Route path="/Contact" element={<Contact/>} />
             <Route path="/About" element={<About/>} />
             <Route path="/Pricing" element={<Pricing/>} />
+            <Route path="/Privacy-policy" element={<PrivacyPolicy/>} />
+            <Route path="/Privacy-policy/:productId?" element={<PrivacyPolicy />} />
             <Route path="/Our-products/:productName/pricing" element={<Pricing />} />
-            
-            
+
           </Routes>
     </Router>
     </div>
