@@ -30,6 +30,7 @@ We may update this privacy policy from time to time. If there are significant ch
 If you have any questions or concerns about our privacy practices, please contact us at hritikchoudharykota@gmail.com. ADD THIS , THIS IS OUR EXTENSION PRODUCT PRIVACY PAGE`
     
      },
+     {id: 'Second product', name: 'email writer', policy: `launching soon...`}
   
  
 ];
