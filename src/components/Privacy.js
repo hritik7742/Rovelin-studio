@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import './RovelinStudio.css'
 
 const products = [
-  { id: 'Leadspry', name: 'Leadspry', policy: `
+  { id: 'leadspry', name: 'Leadspry', policy: `
 Effective Date: 20-09-2024
 Leadspry  is committed to protecting your privacy. This privacy policy explains how our Chrome extension operates and what information we do or do not collect.
 
