@@ -184,12 +184,12 @@ const productData = {
       }
     ]
   },
-  'emailgen': {
-    displayName: 'emailgen',
+  'WA Group Finder': {
+    displayName: 'WA Group Finder',
     plans: [
       {
         name: 'Starter',
-        price: '$200',
+        price: '$0',
         period: '/ year',
         features: [
           'Basic features',
@@ -201,7 +201,7 @@ const productData = {
       },
       {
         name: 'Pro',
-        price: '$49',
+        price: '$0',
         period: '/ month',
         features: [
           'Advanced features',
@@ -213,7 +213,7 @@ const productData = {
       },
       {
         name: 'Ultra',
-        price: '$99',
+        price: '$0',
         period: '/ month',
         features: [
           'All features',

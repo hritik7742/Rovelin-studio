@@ -60,7 +60,7 @@ const RovelinStudio = () => {
         <p className="contact-bio">
           At Rovelin Studio, our mission is to develop innovative software, apps, and extensions that solve global challenges and create meaningful impact. We are committed to delivering cutting-edge solutions that empower businesses and enhance lives worldwide.
         </p>
-        <div className='bottam-nav'  style={{display:"flex"}} >
+        <div className='bottam-nav' >
 
         <li><Link to="/">Home</Link></li>
           <li><Link to="/About">About</Link></li>
