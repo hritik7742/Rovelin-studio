@@ -30,18 +30,16 @@ We may update this privacy policy from time to time. If there are significant ch
 If you have any questions or concerns about our privacy practices, please contact us at hritikchoudharykota@gmail.com. ADD THIS , THIS IS OUR EXTENSION PRODUCT PRIVACY PAGE`
     
      },
-     {id: 'WA Group Finder', name: 'WA Group Finder', policy: `
-      # WhatsApp Group Finder - Privacy Policy
+     {id: 'WA-Group-Finder', name: 'WA Group Finder', policy: `
+Last Updated: 25/09/2024
 
-Last Updated: [Insert Date]
-
-## 1. Introduction
+# 1. Introduction
 
 Welcome to the WhatsApp Group Finder ("the Extension", "we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience when using our browser extension. This policy outlines our practices concerning the collection, use, and disclosure of your information.
 
 The WhatsApp Group Finder is a browser extension designed to help users discover WhatsApp groups based on their interests and preferences. We understand the importance of your privacy and have designed our extension with data minimization and user control in mind.
 
-## 2. Information We Collect
+# 2. Information We Collect
 
 Our extension operates on a principle of minimal data collection. We do not collect, store, or transmit any personal information to our servers. All operations occur locally within your browser. However, it's important to understand what information is used during the extension's operation:
 
@@ -56,7 +54,7 @@ b) Search Results:
 
 These inputs and results are processed and displayed locally in your browser and are not stored persistently by our extension.
 
-## 3. How We Use Information
+# 3. How We Use Information
 
 The information you provide is used solely for the purpose of enhancing your experience with the WhatsApp Group Finder extension. Specifically:
 
@@ -70,7 +68,7 @@ d) Join and Copy Functionality: The extension provides buttons to directly join 
 
 We do not use your information for any other purposes, such as profiling, advertising, or analytics.
 
-## 4. Data Sharing and Disclosure
+# 4. Data Sharing and Disclosure
 
 We are committed to maintaining your privacy and do not engage in selling, renting, or trading any information. The extension's operations are confined to your local browser environment, with the following exceptions:
 
@@ -80,7 +78,7 @@ b) WhatsApp Interactions: When you choose to join a group, you will be redirecte
 
 We do not have access to or control over these third-party interactions.
 
-## 5. Data Security
+# 5. Data Security
 
 As we do not collect or store personal data on our servers, the risk of a data breach on our end is minimized. However, we have implemented the following measures to ensure the security of your interaction with our extension:
 
@@ -92,7 +90,7 @@ c) No Persistent Storage: The extension does not maintain any persistent storage
 
 While we take these precautions, please be aware that no method of internet transmission or electronic storage is 100% secure. We encourage users to be cautious when joining WhatsApp groups, as these are operated by third parties and may have their own privacy practices.
 
-## 6. Your Choices and Rights
+# 6. Your Choices and Rights
 
 We believe in providing you with control over your data and interaction with our extension:
 
@@ -104,27 +102,27 @@ c) Browser Controls: You can use your browser's built-in controls to clear local
 
 d) Extension Removal: You can choose to disable or remove the extension at any time through your browser's extension management interface.
 
-## 7. Children's Privacy
+# 7. Children's Privacy
 
 Our extension is not intended for use by children under the age of 13. We do not knowingly collect or solicit personal information from children under 13. If you are under 13, please do not use the Extension or provide any information to us. If we learn we have collected or received personal information from a child under 13 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us at the email address provided in the Contact Us section.
 
-## 8. International Data Transfers
+# 8. International Data Transfers
 
 The WhatsApp Group Finder extension is designed to work globally. By using our extension, you acknowledge that the searches you perform and the results you receive may cross international borders, even though we do not collect or store this information. The privacy laws in your country may differ from those in the countries where the search results originate.
 
-## 9. Changes to This Privacy Policy
+# 9. Changes to This Privacy Policy
 
 We may update this privacy policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new privacy policy on this page and updating the "Last Updated" date at the top of this privacy policy. You are advised to review this privacy policy periodically for any changes.
 
-## 10. Contact Us
+# 10. Contact Us
 
 If you have any questions about this privacy policy, our data practices, or your interactions with the extension, please contact us at:
 
-[Insert Contact Email or Form]
+hritikkumarkota@gmail.com
 
 We will respond to your inquiries as soon as possible.
 
-## 11. Legal Compliance and Data Protection Rights
+# 11. Legal Compliance and Data Protection Rights
 
 Depending on your jurisdiction, you may have certain data protection rights. While we do not collect personal data, we respect and aim to honor these rights where applicable:
 
@@ -137,11 +135,11 @@ Depending on your jurisdiction, you may have certain data protection rights. Whi
 
 If you wish to exercise any of these rights, please contact us using the information provided in the Contact Us section.
 
-## 12. Use of Google Services
+# 12. Use of Google Services
 
 Our extension utilizes Google's search engine to find WhatsApp groups. This interaction is subject to Google's terms of service and privacy policy. We encourage you to review Google's privacy practices to understand how they handle search queries and results.
 
-## 13. WhatsApp Interaction Disclaimer
+# 13. WhatsApp Interaction Disclaimer
 
 While our extension helps you discover WhatsApp groups, we are not affiliated with, endorsed by, or in any way officially connected with WhatsApp or any of its subsidiaries or affiliates. The official WhatsApp website can be found at https://www.whatsapp.com.
 
@@ -154,7 +152,7 @@ d) You are responsible for your interactions within these groups.
 
 We strongly encourage you to review the privacy settings in your WhatsApp account and be cautious about sharing personal information in groups.
 
-## 14. Security Practices
+# 14. Security Practices
 
 While we don't store your data, we've implemented security best practices in our extension's code:
 
@@ -164,19 +162,19 @@ c) Minimization of third-party dependencies to reduce potential security risks.
 
 However, please note that no system is entirely secure. If you discover any security vulnerabilities, please report them to us immediately using the contact information provided.
 
-## 15. Cookies and Local Storage
+# 15. Cookies and Local Storage
 
 Our extension does not use cookies. It may use your browser's local storage temporarily to improve performance during a search session, but this data is not persisted after you close the extension popup.
 
-## 16. Do Not Track Signals
+# 16. Do Not Track Signals
 
 Some browsers have incorporated "Do Not Track" (DNT) features that can send a signal to the websites you visit indicating you do not wish to be tracked. Because our extension doesn't track users across websites, we do not currently respond to DNT signals. However, you can usually choose to turn off online behavioral advertising yourself by visiting preferences-mgr.truste.com, www.aboutads.info/choices, or youronlinechoices.eu.
 
-## 17. California Privacy Rights
+# 17. California Privacy Rights
 
 If you are a California resident, you have the right to request information regarding the disclosure of your personal information to third parties for their direct marketing purposes. However, as we do not collect or share personal information, this right does not apply to our extension.
 
-## 18. Conclusion
+# 18. Conclusion
 
 Your privacy is important to us. We've designed the WhatsApp Group Finder extension to be a useful tool while respecting your privacy and data protection rights. By using our extension, you agree to the practices described in this privacy policy. If you do not agree with this policy, please discontinue use of the extension immediately.
 
