@@ -24,7 +24,7 @@ const RovelinStudio = () => {
             <p>
               LeadSpry is a Chrome extension designed to help businesses and freelancers efficiently find leads across any niche. It allows you to collect valuable contact information such as emails, phone numbers, and locations, helping you generate high-quality leads quickly and efficiently.
             </p>
-            <button className="cta">DOWNLOAD EXTENSION</button>
+            <button  className="cta"  onClick={() => window.location.href="https://chromewebstore.google.com/detail/leadspry-%E2%80%93-find-quality-l/blegkbedbdcoocieacjmpchfmcmdhfce"}>DOWNLOAD EXTENSION</button>
           </div>
           <div className="logo">
             <img src={LeadSpry} alt="Leadspry Logo" />

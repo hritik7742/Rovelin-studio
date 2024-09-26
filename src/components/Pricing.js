@@ -184,7 +184,7 @@ const productData = {
       }
     ]
   },
-  'WA Group Finder': {
+  'wa-group-finder': {
     displayName: 'WA Group Finder',
     plans: [
       {
