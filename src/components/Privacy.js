@@ -181,7 +181,57 @@ Your privacy is important to us. We've designed the WhatsApp Group Finder extens
 Remember, you are responsible for any information you choose to share when joining or participating in WhatsApp groups. Always exercise caution and good judgment when interacting with unknown parties online.
 
 Thank you for trusting us with your group discovery needs. If you have any questions or concerns, please don't hesitate to contact us.
-      `}
+      `},
+
+  {id: 'ImageXtract', name: 'ImageXtract', policy:`
+    
+Privacy Policy for ImageXtract
+
+Last updated: 30-09-2024
+
+Thank you for using ImageXtract. This privacy policy explains how we collect, use, and protect your information when you use our Chrome extension that allows you to extract text from images on the web and uploaded images. Your privacy is important to us, and we are committed to ensuring that your personal information is secure.
+
+1. Information We Collect
+Our extension does not collect any personal information. Specifically, the extension operates entirely within your browser and does not transmit or store any data to our servers. However, to ensure transparency, here’s a breakdown of the different types of data involved:
+
+Text Extraction from Webpage Areas: When you select an area on a webpage to extract text, this action is performed locally in your browser. The selected image or text is never sent to our servers or any third-party service.
+
+Uploaded Images: If you upload an image from your device to extract text, the image and the extracted text remain local to your browser. No uploaded image or text is stored, shared, or sent outside your local environment.
+
+Cropped Images: When you crop an uploaded image for partial text extraction, the cropped area and resulting text are handled entirely within your browser and are not transmitted elsewhere.
+
+2. Data Usage
+Since the extension operates fully within your browser and does not send data to any external servers, we do not collect or process any user data. All the operations related to text extraction from images happen locally on your device.
+
+3. Third-Party Services
+ImageXtract does not use any third-party analytics, data collection, or tracking services. The extension is designed to prioritize user privacy by ensuring all actions remain confined to your browser.
+
+4. Data Security
+While we do not store or transmit any user data, we prioritize maintaining a secure and privacy-conscious extension. Your image selections, uploads, and text extractions are never exposed to external networks or servers, ensuring that sensitive or private data from images remains secure on your device.
+
+5. User Control
+As a user of ImageXtract, you maintain full control over the actions taken with the extension:
+
+Select and Crop Images: You can select areas on webpages or upload images and crop them to focus on specific areas for text extraction. No part of this process is visible to or shared with any third party.
+
+Clear Data: Since all data remains local to your browser, once you close or refresh the page, the images and extracted text are discarded and are no longer accessible.
+
+6. Permissions
+The extension requires the following permissions to function:
+
+Access to Webpage Content: This permission is necessary to allow you to select areas on a webpage for text extraction. The extension only accesses the webpage content you manually select and does not monitor or access other parts of your browsing activity.
+
+Upload Local Images: The upload feature allows you to choose images from your device for text extraction. The extension does not access any files without your explicit action to upload an image.
+
+7. Changes to This Privacy Policy
+We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated revision date at the top. We encourage you to review this privacy policy periodically to stay informed about how we are protecting your privacy.
+
+8. Contact Us
+If you have any questions or concerns regarding this privacy policy or how your information is handled, please feel free to contact us at Hritikchoudharykota@gmail.com
+
+This privacy policy emphasizes the fact that your extension does not collect or share any user data, highlighting the privacy-conscious nature of the tool. Feel free to adjust specific details like the extension's name or contact information.
+
+    ` }
   
  
 ];
