@@ -233,7 +233,7 @@ This privacy policy emphasizes the fact that your extension does not collect or 
 
     ` }
   ,{
-   id: 'MainTab', name: 'MainTab', policy:`Privacy Policy for MainTab Extension
+   id: 'Maintab', name: 'MainTab', policy:`Privacy Policy for MainTab Extension
 
 At MainTab, your privacy is of utmost importance to us. This Privacy Policy outlines how we handle your data when you use our Chrome extension to manage and organize your tabs. By using MainTab, you agree to the collection and use of information as described in this policy.
 
