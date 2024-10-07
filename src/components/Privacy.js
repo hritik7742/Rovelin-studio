@@ -232,7 +232,41 @@ If you have any questions or concerns regarding this privacy policy or how your 
 This privacy policy emphasizes the fact that your extension does not collect or share any user data, highlighting the privacy-conscious nature of the tool. Feel free to adjust specific details like the extension's name or contact information.
 
     ` }
-  
+  ,{
+   id: 'MainTab', name: 'MainTab', policy:`Privacy Policy for MainTab Extension
+
+At MainTab, your privacy is of utmost importance to us. This Privacy Policy outlines how we handle your data when you use our Chrome extension to manage and organize your tabs. By using MainTab, you agree to the collection and use of information as described in this policy.
+
+1. Information We Collect
+MainTab is designed to help you manage and group your tabs efficiently. In doing so, we may collect minimal data related to the functionality of the extension:
+
+Tabs Information: We collect information about your open tabs solely for the purpose of helping you manage them within groups. This information includes the URLs, tab titles, and their group assignments.
+
+Extension Usage Data: We collect anonymous usage data (e.g., how often you use MainTab features, performance statistics) to help us improve the extension.
+
+2. How We Use Your Information
+Tab Management: The information collected about your tabs is used to allow you to group, organize, and manage your open tabs more effectively.
+
+Improvement of Services: Usage data is analyzed to enhance the functionality and user experience of MainTab. This data is not linked to any personally identifiable information and is used purely for development purposes.
+
+3. No Personal Data Collection
+MainTab does not collect, store, or share any personally identifiable information (PII). We do not track, store, or have access to any sensitive data such as usernames, passwords, or browsing history beyond the open tabs you choose to manage within the extension.
+
+4. Data Sharing
+We do not sell, trade, or otherwise transfer any of your information to outside parties. All tab management operations occur locally on your device. We do not transmit or store any tab data on external servers.
+
+5. Third-Party Services
+MainTab does not use any third-party analytics, advertising, or tracking services. The extension operates entirely on your local machine, ensuring your tab information remains private and secure.
+
+6. Your Consent
+By using the MainTab Chrome extension, you consent to this privacy policy.
+
+7. Changes to This Privacy Policy
+We reserve the right to update or modify this privacy policy at any time. Any changes will be reflected on this page, and your continued use of the extension after such changes constitutes your acceptance of the new terms.
+
+8. Contact Us
+If you have any questions or concerns about this Privacy Policy or how your information is handled, please contact us at hritikkumarkota@gmail.com`
+  }
  
 ];
 
