@@ -266,7 +266,37 @@ We reserve the right to update or modify this privacy policy at any time. Any ch
 
 8. Contact Us
 If you have any questions or concerns about this Privacy Policy or how your information is handled, please contact us at hritikkumarkota@gmail.com`
-  }
+  },
+  {id: 'filteredyoutube', name: 'FilteredYoutube', policy: `Filtered YouTube Privacy Policy
+
+Last Updated: 10-10-2024
+
+Filtered YouTube (the "Extension") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information when using our Chrome extension.
+
+1. Information We Collect
+Filtered YouTube does not collect, store, or share any personal data. The extension operates entirely on your device and only interacts with the YouTube website to hide or display specific elements based on your settings. No browsing data, personal information, or YouTube activities are transmitted to our servers or third-party services.
+
+2. Permissions
+The Extension requires access to specific permissions in your browser, such as:
+
+Read and change your data on youtube.com: This permission allows the extension to modify the YouTube interface to hide shorts, comments, recommendations, and other elements according to your preferences.
+We do not use these permissions to track, monitor, or collect any data about your YouTube activity.
+
+3. Third-Party Services
+Filtered YouTube does not use any third-party services or trackers. The Extension operates locally on your device, ensuring that your data remains private and secure.
+
+4. Data Security
+Since Filtered YouTube does not collect any personal data, there is no risk of data breaches or unauthorized sharing of your information. All modifications made by the Extension are strictly limited to the visual elements of YouTube and are confined to your browsing experience.
+
+5. User Control
+You have full control over how Filtered YouTube interacts with your YouTube browsing. You can enable or disable any features within the Extension's settings at any time. If you wish to stop using the Extension, you can easily uninstall it from your browser without leaving any residual data.
+
+6. Changes to This Policy
+We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date at the top of this page. Continued use of the Extension after any changes indicates your acknowledgment and acceptance of the updated policy.
+
+7. Contact Us
+If you have any questions or concerns about this Privacy Policy or the Extension, feel free to contact us at hritikchoudharykota@gmail.com.
+`}
  
 ];
 
