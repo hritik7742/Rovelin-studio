@@ -297,6 +297,38 @@ We may update this Privacy Policy from time to time. Any changes will be reflect
 7. Contact Us
 If you have any questions or concerns about this Privacy Policy or the Extension, feel free to contact us at hritikchoudharykota@gmail.com.
 `}
+,{id:'cssscanly', name:'CSS Scanly policy' , policy:`
+  
+Privacy Policy for CSS Scanly
+
+Effective Date: 15-10-2024
+
+At CSS Scanly, your privacy is important to us. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to ensure your data is protected while using our Chrome extension. By using CSS Scanly, you agree to the collection and use of information in accordance with this policy.
+
+1. Information We Collect
+CSS Scanly does not collect or store any personal information. The extension is designed to provide users with the ability to view and edit CSS properties on webpages they visit. We do not collect:
+
+Personal data (such as name, email address, or phone number)
+Browsing history or activities
+Sensitive information
+2. How CSS Scanly Works
+CSS Scanly operates locally within your browser. It interacts with the content of the webpage you are viewing to display the CSS properties of specific HTML tags when you hover over them with your mouse. The extension does not transmit any data to external servers or third parties.
+
+3. Permissions
+In order to function correctly, CSS Scanly requires permission to access the webpages you visit. This access is used solely to allow the extension to read and display the CSS of the elements on the page. We do not track or store any information about your browsing activity.
+
+4. Third-Party Services
+CSS Scanly does not use or integrate with any third-party analytics, tracking tools, or services that could collect your data. The extension is fully self-contained and runs within your browser environment.
+
+5. Data Security
+Since CSS Scanly does not collect or transmit any personal data, there are no additional security risks associated with the use of this extension. However, we recommend always using security best practices when browsing the internet.
+
+6. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time to reflect any changes in the extension's functionality or legal requirements. Any changes will be posted on this page with the updated effective date. We encourage you to review this page periodically for any updates.
+
+7. Contact Us
+If you have any questions or concerns about this Privacy Policy or the use of CSS Scanly, please contact us at hritikkumarkota@gmail.com
+`}
  
 ];
 
