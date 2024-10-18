@@ -329,6 +329,90 @@ We may update our Privacy Policy from time to time to reflect any changes in the
 7. Contact Us
 If you have any questions or concerns about this Privacy Policy or the use of CSS Scanly, please contact us at hritikkumarkota@gmail.com
 `}
+,{
+  id: 'seocheckup', name: 'SEO Checkup', policy: `
+
+Here's a privacy policy for your SEO CheckUp extension:
+
+Privacy Policy for SEO CheckUp Chrome Extension
+
+Effective Date:18-10-2024
+
+Introduction
+
+Welcome to SEO CheckUp. We are committed to protecting your privacy and providing transparency about how we handle your data. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information through our Chrome extension.
+
+Information We Collect
+
+2.1 Website Data: When you use SEO CheckUp to analyze a webpage, we collect and process information from that page, including but not limited to:
+
+URL
+
+Page content
+
+HTML structure
+
+Meta tags
+
+Image data
+
+Link information
+
+2.2 Usage Data: We collect anonymous usage statistics to improve our service, including:
+
+Features used
+
+Frequency of use
+
+Error reports
+
+2.3 User Settings: We store your extension preferences locally on your device.
+
+How We Use Your Information
+
+We use the collected information to:
+
+Provide SEO analysis and recommendations
+
+Improve and optimize our extension
+
+Troubleshoot and fix issues
+
+Data Storage and Security
+
+4.1 Local Storage: User preferences and temporary analysis data are stored locally on your device using Chrome's storage API.
+
+4.2 Server-side Processing: Some advanced features may require server-side processing. In such cases, data is transmitted securely and is not stored permanently on our servers.
+
+4.3 Security Measures: We implement appropriate technical and organizational measures to protect your data against unauthorized access or disclosure.
+
+Data Sharing and Disclosure
+
+We do not sell, rent, or share your personal information with third parties. We may share anonymous, aggregated data for analytical purposes.
+
+Your Rights and Choices
+
+You can:
+
+Disable or uninstall the extension at any time
+
+Clear locally stored data through Chrome's settings
+
+Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top.
+
+Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at . hritikchoudharykota@gmail.com
+
+Consent
+
+By using SEO CheckUp, you consent to our Privacy Policy and agree to its terms.
+  
+
+  `
+}
  
 ];
 
