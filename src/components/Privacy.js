@@ -413,6 +413,118 @@ By using SEO CheckUp, you consent to our Privacy Policy and agree to its terms.
 
   `
 }
+,
+{
+   id: 'youtube-stats-viewer', name: 'YouTube Stats Viewer', policy: `
+   
+   # Privacy Policy for YouTube Stats Viewer
+
+Last Updated: November 13, 2024
+
+## Introduction
+
+Welcome to the Privacy Policy for YouTube Stats Viewer ("we," "our," or "the extension"). This Privacy Policy is designed to help you understand how our browser extension collects, uses, and safeguards information when you use our service.
+
+## Information Collection and Use
+
+### What Information We Collect
+
+Our extension collects only the following limited information:
+1. YouTube Video IDs: When you visit YouTube videos or Shorts
+2. Public Video Statistics: Including likes, dislikes, views, and engagement metrics from the Return YouTube Dislike API
+
+### What Information We DO NOT Collect
+
+We want to be clear that we DO NOT collect:
+- Personal identification information
+- Names or email addresses
+- Login credentials
+- Payment information
+- Browsing history outside of YouTube
+- IP addresses or location data
+- Any user-generated content
+- Cookies or tracking data
+
+## How We Use Information
+
+The collected information is used solely for:
+1. Displaying video statistics within the YouTube interface
+2. Showing dislike counts on videos and Shorts
+3. Calculating engagement metrics for the current video
+
+All data processing occurs locally in your browser. No information is stored on external servers.
+
+## Data Sharing and Disclosure
+
+We do not:
+- Sell any user data
+- Share information with third parties
+- Transfer data for advertising purposes
+- Use data for any purpose beyond the extension's core functionality
+
+The only external communication our extension makes is to the Return YouTube Dislike API to fetch public video statistics.
+
+## Data Security
+
+We implement appropriate technical measures to protect against unauthorized access, alteration, disclosure, or destruction of information. All data processing occurs locally within your browser environment.
+
+## Third-Party Services
+
+Our extension uses the Return YouTube Dislike API (returnyoutubedislikeapi.com) to fetch video statistics. Please refer to their privacy policy for information about how they handle data.
+
+## Children's Privacy
+
+Our extension does not knowingly collect any personal information from children under 13. The extension simply displays public video statistics available through YouTube's platform.
+
+## Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify users of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+
+## Your Rights
+
+You have the right to:
+- Know what data is being collected
+- Access the data being collected
+- Remove the extension at any time
+- Contact us with questions about data handling
+
+## Browser Permissions
+
+Our extension requires specific permissions to function:
+- "activeTab": To access and modify YouTube page content
+- "tabs": To detect URL changes between videos
+- Access to youtube.com: To display statistics on YouTube pages
+
+These permissions are used solely for the extension's core functionality of displaying video statistics.
+
+## Contact Information
+
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+hritikkumarkota@gmail.com
+
+## Compliance
+
+This extension complies with:
+- Chrome Web Store Developer Program Policies
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+
+## Consent
+
+By installing and using our extension, you agree to the terms outlined in this Privacy Policy.
+
+## Additional Information
+
+- The extension is open-source, and its code can be reviewed on GitHub
+- We maintain transparency about all data handling practices
+- Users can uninstall the extension at any time through their browser settings
+
+This Privacy Policy was last updated on November 13, 2024.
+
+   `
+}
+
+
  
 ];
 
