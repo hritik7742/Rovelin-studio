@@ -523,6 +523,106 @@ This Privacy Policy was last updated on November 13, 2024.
 
    `
 }
+,
+{
+  id: 'fullpagescreenshot', name: 'FullPageScreenshot', policy: `
+  
+Privacy Policy for FullPageScreenshot Extension
+Last Updated: 20 nov 2024
+
+Introduction
+FullPageScreenshot ("we," "our," or "the extension") is committed to protecting your privacy. This policy explains our data practices and your privacy rights when using our browser extension.
+
+Data Collection
+2.1 Screenshot Content
+
+We capture webpage content only when explicitly requested by the user.
+Screenshots are processed and stored locally on your device.
+No automatic or background capture occurs.
+2.2 Local Storage
+
+Recent screenshots are temporarily stored in browser local storage.
+User preferences and settings are saved locally.
+All stored data remains on your device.
+2.3 Non-Collection Statement
+We DO NOT collect:
+
+Personal identification information.
+Browsing history.
+Authentication data.
+Financial information.
+Communication content.
+Location data.
+Usage analytics.
+Data Usage
+
+3.1 Purpose Limitation
+Screenshots are used solely for user-initiated capture and editing.
+Local storage is used only for maintaining recent screenshots and preferences.
+No data mining or analysis is performed.
+
+3.2 Data Processing
+All processing occurs locally on your device.
+No cloud processing or external servers are used.
+No data is transmitted over the internet.
+Data Storage
+
+4.1 Location
+All data is stored locally in your browser.
+No external or cloud storage is used.
+Data persistence is limited to browser local storage.
+
+4.2 Duration
+Recent screenshots are stored temporarily.
+Users can clear data through browser settings.
+Automatic cleanup of old data occurs periodically.
+User Rights & Control
+
+5.1 Data Access
+All captured screenshots are immediately accessible.
+Local storage can be viewed through browser settings.
+No hidden or inaccessible data storage.
+
+5.2 Data Deletion
+Users can delete screenshots immediately after capture.
+Browser local storage can be cleared at any time.
+No residual data remains on external servers.
+Security
+
+6.1 Data Protection
+Local processing ensures data security.
+No network transmission of screenshot data.
+Standard browser security protects local storage.
+
+6.2 Risk Mitigation
+No external data exposure risk.
+No cloud storage vulnerabilities.
+No network transmission risks.
+Third-Party Access
+No data sharing with third parties.
+No external service integrations.
+No analytics or tracking services.
+
+Warning
+This extension is not intended for copying or misusing content or data from any website. You are solely responsible for any misuse of this extension, and we strongly warn against using it for unlawful or unauthorized activities. Use this tool only for your personal and professional tasks.
+
+Updates to Privacy Policy
+
+Users will be notified of policy changes.
+Updates will be reflected in the Web Store listing.
+Version history will be maintained.
+Contact Information
+[hritikkumarkota@gmail.com](mailto:hritikkumarkota@gmail.com)
+
+Compliance
+This extension complies with:
+
+Chrome Web Store Developer Program Policies.
+General Data Protection Regulation (GDPR).
+California Consumer Privacy Act (CCPA).
+  
+  `
+}
 
 
  
