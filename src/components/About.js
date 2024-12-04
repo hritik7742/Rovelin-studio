@@ -1,38 +1,72 @@
 import React from 'react'
 import './RovelinStudio.css'
+import aboutImage from '../images/web.jpg'; // Update with your actual image path
 
+const About = () => {
+    return (
+        <div className="about-container">
+            <div className="about-hero">
+                <h1>About Rovelin Studio</h1>
+                <p className="subtitle">Innovating for Tomorrow's Solutions</p>
+            </div>
 
-function About() {
-  return (
-    <div>
-         <section className="why-choose-us">
-          <h2>Why you should choose us</h2>
-          <p>
-            You should choose Rovelin Studio because we are committed to delivering innovative, high-quality solutions that address real-world challenges. Our passion is building impactful apps, extensions, and software that meet your needs but also bring value to your business and everyday life.
-          </p>
-          <div className="features">
-            <div className="feature">
-              <div className="icon">⚡</div>
-              <h3>Innovative Thinking</h3>
-              <p>Your focus on innovation ensures that you stay ahead of industry trends, driving unique solutions for evolving market needs.</p>
-              <button className="secondary">Read More</button>
+            <div className="about-content">
+                <div className="about-section">
+                    <div className="about-image">
+                        <img src={aboutImage} alt="Rovelin Studio Team" />
+                    </div>
+                    <div className="about-text">
+                        <h2>Our Story</h2>
+                        <p>At Rovelin Studio, we're passionate about creating innovative solutions that make a difference. Founded with a vision to transform how people interact with technology, we've grown into a team of dedicated professionals committed to excellence.</p>
+                    </div>
+                </div>
+
+                <div className="mission-values">
+                    <h2>Our Mission & Values</h2>
+                    <div className="values-grid">
+                        <div className="value-card">
+                            <div className="value-icon">🎯</div>
+                            <h3>Innovation</h3>
+                            <p>Pushing boundaries to create cutting-edge solutions that solve real-world problems.</p>
+                        </div>
+                        <div className="value-card">
+                            <div className="value-icon">💡</div>
+                            <h3>Excellence</h3>
+                            <p>Committed to delivering high-quality products that exceed expectations.</p>
+                        </div>
+                        <div className="value-card">
+                            <div className="value-icon">🤝</div>
+                            <h3>Integrity</h3>
+                            <p>Building trust through transparent and ethical business practices.</p>
+                        </div>
+                        <div className="value-card">
+                            <div className="value-icon">🌍</div>
+                            <h3>Impact</h3>
+                            <p>Creating meaningful change in how people interact with technology.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-section">
+                    <h2>Our Expertise</h2>
+                    <div className="expertise-grid">
+                        <div className="expertise-card">
+                            <h3>Chrome Extensions</h3>
+                            <p>Specialized in developing powerful browser extensions that enhance productivity and user experience.</p>
+                        </div>
+                        <div className="expertise-card">
+                            <h3>Web Applications</h3>
+                            <p>Creating responsive and intuitive web applications that solve complex business challenges.</p>
+                        </div>
+                        <div className="expertise-card">
+                            <h3>Custom Solutions</h3>
+                            <p>Developing tailored software solutions to meet specific business needs and requirements.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="feature">
-              <div className="icon">🔍</div>
-              <h3>Problem-Solving Focus</h3>
-              <p>Your approach is centered around understanding and addressing real-world challenges.</p>
-              <button className="secondary">Read More</button>
-            </div>
-            <div className="feature">
-              <div className="icon">🌐</div>
-              <h3>Customer-Centric</h3>
-              <p>You place the client at the core of your process, delivering solutions tailored to their specific needs.</p>
-              <button className="secondary">Read More</button>
-            </div>
-          </div>
-        </section>
-    </div>
-  )
-}
+        </div>
+    );
+};
 
 export default About

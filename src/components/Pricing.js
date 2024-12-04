@@ -1,292 +1,185 @@
-
-
-
-// import React, { useState } from 'react';
-// // import './PricingStyles.css';
-
-// const productData = {
-//   'Website Builder': {
-//     plans: [
-//       {
-//         name: 'Starter',
-//         price: '$19',
-//         period: '/ month',
-//         features: [
-//           'Basic features',
-//           '1 user',
-//           '5GB storage',
-//           'Email support'
-//         ],
-//         buttonText: 'Choose Starter'
-//       },
-//       {
-//         name: 'Pro',
-//         price: '$49',
-//         period: '/ month',
-//         features: [
-//           'Advanced features',
-//           '5 users',
-//           '50GB storage',
-//           'Priority support'
-//         ],
-//         buttonText: 'Choose Pro'
-//       },
-//       {
-//         name: 'Ultra',
-//         price: '$99',
-//         period: '/ month',
-//         features: [
-//           'All features',
-//           'Unlimited users',
-//           '500GB storage',
-//           '24/7 phone support'
-//         ],
-//         buttonText: 'Choose Ultra'
-//       }
-//     ]
-//   },
-//   'Website manager': {
-//     plans: [
-//       {
-//         name: 'new',
-//         price: '$5',
-//         period: '/ month',
-//         features: [
-//           'Basic features',
-//           '1 user',
-//           '5GB storage',
-//           'Email support'
-//         ],
-//         buttonText: 'Choose Starter'
-//       },
-//       {
-//         name: 'Pro',
-//         price: '$49',
-//         period: '/ month',
-//         features: [
-//           'Advanced features',
-//           '5 users',
-//           '50GB storage',
-//           'Priority support'
-//         ],
-//         buttonText: 'Choose Pro'
-//       },
-//       {
-//         name: 'Ultra',
-//         price: '$99',
-//         period: '/ month',
-//         features: [
-//           'All features',
-//           'Unlimited users',
-//           '500GB storage',
-//           '24/7 phone support'
-//         ],
-//         buttonText: 'Choose Ultra'
-//       }
-//     ]
-//   },
-//   // Add more products here if needed
-// };
-
-// function Pricing() {
-//   const [selectedProduct, setSelectedProduct] = useState('Website Builder');
-
-//   return (
-//     <div className="pricing-container">
-//       <h1>Pricing Plans for Website Builder</h1>
-//       <p className="subtitle">Choose the perfect plan for your needs</p>
-      
-//       <div className="pricing-grid">
-//         <div className="product-selection">
-//           <h2>Select Product</h2>
-//           <p>Choose the product you want to price</p>
-//           <select 
-//             value={selectedProduct} 
-//             onChange={(e) => setSelectedProduct(e.target.value)}
-//           >
-//             {Object.keys(productData).map((product) => (
-//               <option key={product} value={product}>{product}</option>
-//             ))}
-//           </select>
-//         </div>
-        
-//         {productData[selectedProduct].plans.map((plan, index) => (
-//           <div key={index} className={`plan-card ${plan.name.toLowerCase()}`}>
-//             <h2>{plan.name}</h2>
-//             <div className="price">
-//               <span className="amount">{plan.price}</span>
-//               <span className="period">{plan.period}</span>
-//             </div>
-//             <ul className="features">
-//               {plan.features.map((feature, featureIndex) => (
-//                 <li key={featureIndex}>
-//                   <span className="checkmark">✓</span> {feature}
-//                 </li>
-//               ))}
-//             </ul>
-//             <button className="choose-plan">{plan.buttonText}</button>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Pricing;
-
-
-
-
+import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import './RovelinStudio.css';
-import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 
+const Pricing = () => {
+  const location = useLocation();
+  const [selectedProduct, setSelectedProduct] = useState('leadspry');
 
-const productData = {
-  'leadspry': {
-    displayName: 'Leadspry',
-    plans: [
-      {
-        name: 'Starter',
-        price: '$19',
-        period: '/ month',
-        features: [
-          'Basic features',
-          '1 user',
-          '5GB storage',
-          'Email support'
-        ],
-        buttonText: 'Choose Starter'
-      },
-      {
-        name: 'Pro',
-        price: '$49',
-        period: '/ month',
-        features: [
-          'Advanced features',
-          '5 users',
-          '50GB storage',
-          'Priority support'
-        ],
-        buttonText: 'Choose Pro'
-      },
-      {
-        name: 'Ultra',
-        price: '$99',
-        period: '/ month',
-        features: [
-          'All features',
-          'Unlimited users',
-          '500GB storage',
-          '24/7 phone support'
-        ],
-        buttonText: 'Choose Ultra'
-      }
-    ]
-  },
-  'wa-group-finder': {
-    displayName: 'WA Group Finder',
-    plans: [
-      {
-        name: 'Starter',
-        price: '$0',
-        period: '/ year',
-        features: [
-          'Basic features',
-          '1 user',
-          '5GB storage',
-          'Email support'
-        ],
-        buttonText: 'Choose Starter'
-      },
-      {
-        name: 'Pro',
-        price: '$0',
-        period: '/ month',
-        features: [
-          'Advanced features',
-          '5 users',
-          '50GB storage',
-          'Priority support'
-        ],
-        buttonText: 'Choose Pro'
-      },
-      {
-        name: 'Ultra',
-        price: '$0',
-        period: '/ month',
-        features: [
-          'All features',
-          'Unlimited users',
-          '500GB storage',
-          '24/7 phone support'
-        ],
-        buttonText: 'Choose Ultra'
-      }
-    ]
-  },
-  // Add more products here as needed
-};
-
-function Pricing() {
-  const { productName } = useParams();
-  const navigate = useNavigate();
-  const [selectedProduct, setSelectedProduct] = useState(productName || 'leadspry');
-
-  useEffect(() => {
-    if (productName && productData[productName]) {
-      setSelectedProduct(productName);
-    } else if (productName && !productData[productName]) {
-      // Handle invalid product names
-      navigate('/Our-products/leadspry/pricing', { replace: true });
+  const products = {
+    leadspry: {
+      name: 'Leadspry',
+      plans: [
+        {
+          name: 'Free',
+          price: '$0',
+          period: 'forever',
+          features: [
+            'Up to 15 leads data',
+            'Basic lead information',
+            'CSV export',
+            'Community support'
+          ]
+        },
+        {
+          name: 'Monthly',
+          price: '$9.99',
+          period: 'per month',
+          features: [
+            'Unlimited leads data',
+            'Advanced lead information',
+            'Multiple export formats',
+            'Priority support',
+            'Regular updates',
+            'License key via Gumroad'
+          ],
+          isPopular: true,
+          gumroadLink: 'https://hritikkumarkota.gumroad.com/l/leadspry'
+        },
+        {
+          name: '6 Months',
+          price: '$59.94',
+          period: '6 months',
+          features: [
+            'All Monthly plan features',
+            'Save 16% ($10 off)',
+            'Extended support',
+            'Priority updates',
+            'License key via Gumroad'
+          ],
+          gumroadLink: 'https://hritikkumarkota.gumroad.com/l/leadspry'
+        }
+      ]
+    },
+    wagroupfinder: {
+      name: 'WA Group Finder',
+      plans: [
+        {
+          name: 'Free',
+          price: '$0',
+          period: 'forever',
+          features: [
+            'Limited group search',
+            'Basic filters',
+            'Community support',
+            'Standard features'
+          ]
+        },
+        {
+          name: 'Monthly',
+          price: '$5',
+          period: 'per month',
+          features: [
+            'Unlimited group search',
+            'Advanced filters',
+            'Priority support',
+            'Regular updates',
+            'License key via Gumroad'
+          ],
+          isPopular: true,
+          gumroadLink: 'https://hritikkumarkota.gumroad.com/l/psyhyd'
+        },
+        {
+          name: '6 Months',
+          price: '$30',
+          period: '6 months',
+          features: [
+            'All Monthly plan features',
+            'Save on 6-month access',
+            'Priority support',
+            'Regular updates',
+            'License key via Gumroad'
+          ],
+          gumroadLink: 'https://hritikkumarkota.gumroad.com/l/psyhyd'
+        }
+      ]
     }
-  }, [productName, navigate]);
-
-  const handleProductChange = (e) => {
-    const newProduct = e.target.value;
-    setSelectedProduct(newProduct);
-    navigate(`/Our-products/${newProduct}/pricing`, { replace: true });
   };
 
   return (
     <div className="pricing-container">
-      <h1>Pricing Plans for {productData[selectedProduct].displayName}</h1>
-      <p className="subtitle">Choose the perfect plan for your needs</p>
-      
-      <div className="pricing-grid">
-        <div className="product-selection">
-          <h2>Select Product</h2>
-          <p>Choose the product you want to price</p>
+      <div className="pricing-header">
+        <h1>Choose Your Plan</h1>
+        <p>Select a product to view pricing</p>
+        
+        <div className="product-selector">
           <select 
             value={selectedProduct} 
-            onChange={handleProductChange}
+            onChange={(e) => setSelectedProduct(e.target.value)}
+            className="product-select"
           >
-            {Object.entries(productData).map(([key, value]) => (
-              <option key={key} value={key}>{value.displayName}</option>
+            {Object.entries(products).map(([key, product]) => (
+              <option key={key} value={key}>
+                {product.name}
+              </option>
             ))}
           </select>
         </div>
-        
-        {productData[selectedProduct].plans.map((plan, index) => (
-          <div key={index} className={`plan-card ${plan.name.toLowerCase()}`}>
-            <h2>{plan.name}</h2>
-            <div className="price">
-              <span className="amount">{plan.price}</span>
-              <span className="period">{plan.period}</span>
+      </div>
+
+      <div className="pricing-grid">
+        {products[selectedProduct].plans.map((plan, index) => (
+          <div 
+            key={index} 
+            className={`pricing-card ${plan.isPopular ? 'popular' : ''}`}
+          >
+            {plan.isPopular && <div className="popular-tag">Most Popular</div>}
+            <div className="plan-header">
+              <h2>{plan.name}</h2>
+              <div className="price">
+                <span className="amount">{plan.price}</span>
+                <span className="period">{plan.period}</span>
+              </div>
             </div>
-            <ul className="features">
-              {plan.features.map((feature, featureIndex) => (
-                <li key={featureIndex}>
-                  <span className="checkmark">✓</span> {feature}
+
+            <ul className="features-list">
+              {plan.features.map((feature, idx) => (
+                <li key={idx}>
+                  <svg className="check-icon" viewBox="0 0 24 24">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
+                  </svg>
+                  {feature}
                 </li>
               ))}
             </ul>
-            <button className="choose-plan">{plan.buttonText}</button>
+
+            {plan.gumroadLink ? (
+              <a 
+                href={plan.gumroadLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="plan-button"
+              >
+                Purchase on Gumroad
+              </a>
+            ) : (
+              <button className="plan-button free-plan">
+                Get Started Free
+              </button>
+            )}
           </div>
         ))}
       </div>
+
+      <div className="pricing-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div className="faq-grid">
+          <div className="faq-item">
+            <h3>How does the license key work?</h3>
+            <p>After purchasing through Gumroad, you'll receive a license key. Enter this key in the extension settings to unlock premium features.</p>
+          </div>
+          <div className="faq-item">
+            <h3>Can I upgrade my plan?</h3>
+            <p>Yes, you can upgrade to a higher plan at any time. Simply purchase the new plan and enter the new license key.</p>
+          </div>
+          <div className="faq-item">
+            <h3>Do you offer refunds?</h3>
+            <p>Yes, we offer a 30-day money-back guarantee if you're not satisfied with your purchase.</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default Pricing;

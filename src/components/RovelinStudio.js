@@ -1,77 +1,100 @@
 // File: src/components/RovelinStudio.js
-import React from 'react';
-import LeadSpry from '../images/Leadspry.png'
-import web from '../images/web.jpg'
-import Pricing from './Pricing';
-import Ourproducts from './Ourproducts';
-import Navbar from './Navbar';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import LeadSpry from '../images/Leadspry.png';
+import Whatsapplogo from '../images/whatsapplogo.png';
+import web from '../images/web.jpg';
 import Contact from './Contact';
 import About from './About';
-import { Link } from 'react-router-dom';
-import './RovelinStudio.css'
+import './RovelinStudio.css';
+import Footer from './Footer';
 
 const RovelinStudio = () => {
+  const heroProducts = [
+    {
+      name: 'Leadspry',
+      description: 'LeadSpry is a Chrome extension designed to help businesses and freelancers efficiently find leads across any niche. It allows you to collect valuable contact information such as emails, phone numbers, and locations, helping you generate high-quality leads quickly and efficiently.',
+      image: LeadSpry,
+      src: 'https://chromewebstore.google.com/detail/leadspry-%E2%80%93-find-quality-l/blegkbedbdcoocieacjmpchfmcmdhfce'
+    },
+    {
+      name: 'WA Group Finder',
+      description: 'WA Group Finder is an innovative Chrome extension that helps users discover WhatsApp groups tailored to their interests. Find and join relevant groups effortlessly, connecting with like-minded individuals across various communities and professional networks.',
+      image: Whatsapplogo,
+      src: 'https://chromewebstore.google.com/detail/wa-group-finder-find-what/dnhlhdlclknabfhnchaldipcidafnodj?authuser=0&hl=en'
+    },
+    {
+      name: 'ImageXtract',
+      description: 'ImageXtract is a versatile Chrome extension that enables users to extract text from images on the web and uploaded images. Operating entirely within your browser, it ensures privacy while providing a seamless experience for converting image-based text.',
+      image: web, // Replace with actual image path
+      src: 'https://chromewebstore.google.com/detail/imagextract-copy-text-fro/enafhefnjpdnhbmccghnphjjlflohpkg?authuser=0&hl=en'
+    }
+  ];
 
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prevSlide) => 
+        prevSlide === heroProducts.length - 1 ? 0 : prevSlide + 1
+      );
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="mainbox">
-     
-     {/* <Navbar/> */}
       <main>
-        <section className="leadspry-hero">
-          <div className="content">
-            <h1>Leadspry</h1>
-            <p>
-              LeadSpry is a Chrome extension designed to help businesses and freelancers efficiently find leads across any niche. It allows you to collect valuable contact information such as emails, phone numbers, and locations, helping you generate high-quality leads quickly and efficiently.
-            </p>
-            <button  className="cta"  onClick={() => window.location.href="https://chromewebstore.google.com/detail/leadspry-%E2%80%93-find-quality-l/blegkbedbdcoocieacjmpchfmcmdhfce"}>DOWNLOAD EXTENSION</button>
-          </div>
-          <div className="logo">
-            <img src={LeadSpry} alt="Leadspry Logo" />
+        <section className="hero-slider">
+          {heroProducts.map((product, index) => (
+            <div key={index} className={`slide ${currentSlide === index ? 'active' : ''}`}>
+              <div className="content">
+                <h1>{product.name}</h1>
+                <p>{product.description}</p>
+                <button 
+                  className="cta"
+                  onClick={() => window.location.href = product.src}
+                >
+                  DOWNLOAD EXTENSION
+                </button>
+              </div>
+              <div className="logo">
+                <img 
+                  src={product.image} 
+                  alt={`${product.name} Logo`} 
+                />
+              </div>
+            </div>
+          ))}
+          <div className="slider-dots">
+            {heroProducts.map((_, index) => (
+              <button
+                key={index}
+                className={`dot ${currentSlide === index ? 'active' : ''}`}
+                onClick={() => setCurrentSlide(index)}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
           </div>
         </section>
 
         <div className="who_we_are">
-        <h1>who are we ?</h1>
-        <div className="image-container">
+          <h1>Who are we?</h1>
+          <div className="image-container">
             <img src={web} alt="Rovelin Studio Illustration"/>
+          </div>
+          <p>
+            We are Rovelin Studio, an agency driven by the mission to solve global problems through innovative solutions. We specialize in developing apps, extensions, and software that make a meaningful impact worldwide. Our goal is to create value and positively influence people's lives through our work.
+          </p>
+          <Link to="/About" className="btn">READ MORE</Link>
         </div>
-        <p>
-            We are Rovelin Studio, a agency driven by the mission to solve global problems through innovative solutions. We specialize in
-            developing apps, extensions, and software that make a meaningful impact worldwide. Our goal is to create value and positively
-            influence people's lives through our work.
-        </p>
-        <a href="#" className="btn">READ MORE</a>
-    </div>
 
-<Ourproducts/>
-
-  <About/>    
-
-
-      <Pricing/>
-       
-       <Contact/>
+        <About />
+        <Contact />
       </main>
 
-      <footer>
-        <h2>ROVELIN</h2>
-        <p className="tagline">Empowering the Future, One Solution at a Time.</p>
-        <p className="contact-bio">
-          At Rovelin Studio, our mission is to develop innovative software, apps, and extensions that solve global challenges and create meaningful impact. We are committed to delivering cutting-edge solutions that empower businesses and enhance lives worldwide.
-        </p>
-        <div className='bottam-nav' >
-
-        <li><Link to="/">Home</Link></li>
-          <li><Link to="/About">About</Link></li>
-          <li><Link to="/Pricing">Pricing</Link></li>
-          <li><Link to="/Our-products">Our product</Link></li>
-          <li><Link to="/Privacy-policy">Privacy Policy</Link></li>
-          <li><Link to="/Contact">Contact</Link></li>
-
-        </div>
-        <p className="copyright">© 2023 All Rights Reserved. Rovelin Studio</p>
-      </footer>
+      <Footer/>
     </div>
   );
 };
