@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './RovelinStudio.css';
 import LeadSpry from '../images/Leadspry.png';
 import Whatsapplogo from '../images/whatsapplogo.png';
@@ -86,6 +86,14 @@ const products = [
 ];
 
 const Ourproducts = () => {
+  useEffect(() => {
+    document.title = "Our Products | Chrome Extensions & Software Tools | Rovelin Studio";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Discover our suite of innovative Chrome extensions and software tools including Leadspry, WhatsApp tools, and more. Built to enhance productivity and business efficiency.');
+    }
+  }, []);
+
   return (
     <div className="products-page">
       <div className="products-hero">

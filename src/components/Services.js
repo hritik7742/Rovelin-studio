@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './RovelinStudio.css';
 
 const Services = () => {
+  useEffect(() => {
+    document.title = "Our Services | Rovelin Studio";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Explore our comprehensive software development services including Chrome extensions, web applications, and custom software solutions tailored for your business needs.');
+    }
+  }, []);
+
   const services = [
     {
       title: "Website Development",
