@@ -7,7 +7,7 @@ import web from '../images/web.jpg';
 import Contact from './Contact';
 import About from './About';
 import './RovelinStudio.css';
-import Footer from './Footer';
+
 
 const RovelinStudio = () => {
   const heroProducts = [
@@ -79,6 +79,34 @@ const RovelinStudio = () => {
           </div>
         </section>
 
+        <section className="services-preview">
+          <h2>Our Services</h2>
+          <p>Professional Development Solutions for Your Business Needs</p>
+          <div className="services-preview-grid">
+            <div className="service-preview-card">
+              <div className="service-icon">🌐</div>
+              <h3>Website Development</h3>
+              <p>Custom-built, responsive websites tailored to your business needs.</p>
+              <Link to="/Services" className="learn-more">Learn More →</Link>
+            </div>
+            <div className="service-preview-card">
+              <div className="service-icon">🧩</div>
+              <h3>Chrome Extensions</h3>
+              <p>Professional Chrome extension development to enhance browser functionality.</p>
+              <Link to="/Services" className="learn-more">Learn More →</Link>
+            </div>
+            <div className="service-preview-card">
+              <div className="service-icon">📱</div>
+              <h3>Application Development</h3>
+              <p>Full-stack application development services for web and mobile platforms.</p>
+              <Link to="/Services" className="learn-more">Learn More →</Link>
+            </div>
+          </div>
+          <div className="services-cta">
+            <Link to="/Services" className="cta">View All Services</Link>
+          </div>
+        </section>
+
         <div className="who_we_are">
           <h1>Who are we?</h1>
           <div className="image-container">
@@ -94,7 +122,7 @@ const RovelinStudio = () => {
         <Contact />
       </main>
 
-      <Footer/>
+      
     </div>
   );
 };

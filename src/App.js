@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import RovelinStudio from './components/RovelinStudio';
@@ -8,13 +9,17 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Pricing from './components/Pricing';
 import PrivacyPolicy from './components/Privacy';
+import SocialBanner from './components/SocialBanner';
+import Footer from './components/Footer';
+import Services from './components/Services';
 
 function App() {
   return (
-    <div className="App">
-    
-      <Router>
-      <Navbar/>
+    <Router>
+      <div className="app">
+        <SocialBanner />
+        <Navbar />
+        <main className="main-content">
           <Routes>
             <Route path="/" element={<RovelinStudio />} />
             <Route path="/Our-products" element={<Ourproducts/>} />
@@ -24,10 +29,12 @@ function App() {
             <Route path="/Privacy-policy" element={<PrivacyPolicy/>} />
             <Route path="/Privacy-policy/:productId?" element={<PrivacyPolicy />} />
             <Route path="/Our-products/:productName/pricing" element={<Pricing />} />
-
+            <Route path="/Services" element={<Services />} />
           </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
-    </div>
   );
 }
 
