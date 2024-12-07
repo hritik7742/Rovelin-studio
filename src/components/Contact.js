@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './RovelinStudio.css'
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Us | Rovelin Studio";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Get in touch with Rovelin Studio for custom software development, Chrome extensions, or any questions about our products and services.');
+    }
+  }, []);
+
   return (
     <div className="contact-container">
       <h1>Contact Us</h1>

@@ -34,6 +34,11 @@ const RovelinStudio = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
+    document.title = "Rovelin Studio | Innovative Software & Chrome Extension Development";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Rovelin Studio specializes in creating powerful Chrome extensions, web applications, and custom software solutions that drive business growth and innovation.');
+    }
     const timer = setInterval(() => {
       setCurrentSlide((prevSlide) => 
         prevSlide === heroProducts.length - 1 ? 0 : prevSlide + 1

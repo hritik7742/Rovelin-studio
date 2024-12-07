@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './RovelinStudio.css'
 import aboutImage from '../images/web.jpg'; // Update with your actual image path
 
 const About = () => {
+    useEffect(() => {
+        document.title = "About Rovelin Studio | Our Story & Mission";
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute('content', 'Learn about Rovelin Studio\'s journey, our mission to create innovative software solutions, and our commitment to excellence in Chrome extension and web application development.');
+        }
+    }, []);
+
     return (
         <div className="about-container">
             <div className="about-hero">

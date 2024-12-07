@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import './RovelinStudio.css';
 
 const Pricing = () => {
   const location = useLocation();
   const [selectedProduct, setSelectedProduct] = useState('leadspry');
+
+  useEffect(() => {
+    document.title = "Pricing Plans | Rovelin Studio Products";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'View our flexible pricing plans for Chrome extensions and software tools. Find the perfect plan for your business needs with our transparent pricing structure.');
+    }
+  }, []);
 
   const products = {
     leadspry: {
