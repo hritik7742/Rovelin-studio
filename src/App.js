@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
 import logo from './logo.svg';
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
 import './App.css';
 import RovelinStudio from './components/RovelinStudio';
 import Ourproducts from './components/Ourproducts';
@@ -15,11 +12,8 @@ import PrivacyPolicy from './components/Privacy';
 import SocialBanner from './components/SocialBanner';
 import Footer from './components/Footer';
 import Services from './components/Services';
-<<<<<<< HEAD
 import BlogList from './components/Blog/BlogList';
 import BlogPost from './components/Blog/BlogPost';
-=======
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
 
 function App() {
   return (
@@ -38,11 +32,8 @@ function App() {
             <Route path="/Privacy-policy/:productId?" element={<PrivacyPolicy />} />
             <Route path="/Our-products/:productName/pricing" element={<Pricing />} />
             <Route path="/Services" element={<Services />} />
-<<<<<<< HEAD
             <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
-=======
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
           </Routes>
         </main>
         <Footer />

@@ -1,23 +1,8 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
 import React, { useEffect } from 'react';
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
 import { Link } from 'react-router-dom';
 import './RovelinStudio.css';
 
 const Services = () => {
-<<<<<<< HEAD
-=======
-  useEffect(() => {
-    document.title = "Our Services | Rovelin Studio";
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Explore our comprehensive software development services including Chrome extensions, web applications, and custom software solutions tailored for your business needs.');
-    }
-  }, []);
-
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
   const services = [
     {
       title: "Website Development",
@@ -44,6 +29,14 @@ const Services = () => {
       icon: "💻"
     }
   ];
+
+  useEffect(() => {
+    document.title = "Our Services | Rovelin Studio";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Explore our comprehensive software development services including Chrome extensions, web applications, and custom software solutions tailored for your business needs.');
+    }
+  }, []);
 
   return (
     <div className="services-container">

@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
 import { X } from 'lucide-react';
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
 import './RovelinStudio.css';
 
 const SocialBanner = () => {
@@ -14,11 +11,7 @@ const SocialBanner = () => {
         </div>
         <div className="social-links">
           <a 
-<<<<<<< HEAD
             href="YOUR_DISCORD_INVITE_LINK" 
-=======
-            href="https://discord.gg/SHVtvnKn" 
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link discord"
@@ -29,11 +22,7 @@ const SocialBanner = () => {
             Discord
           </a>
           <a 
-<<<<<<< HEAD
             href="YOUR_TELEGRAM_INVITE_LINK" 
-=======
-            href="https://t.me/+6AP1qNViCAs1ZGU1" 
->>>>>>> 478ee55812f3f63c96be07cdc3220bc85489043f
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link telegram"

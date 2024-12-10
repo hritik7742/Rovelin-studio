@@ -623,6 +623,52 @@ California Consumer Privacy Act (CCPA).
   
   `
 }
+,
+{
+  id: 'customscreensaver',
+  name: 'Custom Screensaver Extension',
+  policy: `Last Updated: 11-12-2024
+
+1. Data Collection and Usage
+   - We collect minimal data necessary for the extension's core functionality
+   - License verification information for pro users
+   - User preferences and settings
+   - Cached media content for performance optimization
+
+2. Data Storage
+   - All user data is stored locally in your browser
+   - No personal data is transmitted to external servers except for:
+     * License verification through Gumroad's secure API
+     * Loading media content from approved sources
+
+3. Data Security
+   - All communications use secure, encrypted connections
+   - No personal information is shared with third parties
+   - License verification uses industry-standard security protocols
+
+4. User Rights
+   - Users can clear all stored data through Chrome's extension settings
+   - Users can disable or remove the extension at any time
+   - No data persists after extension removal
+
+5. Third-Party Services
+   - Gumroad: Used solely for license verification
+   - Media providers: Used only for content delivery
+
+6. Updates
+   - Users will be notified of privacy policy changes
+   - Continued use after updates implies acceptance
+
+7. Contact
+   For privacy concerns, contact:
+   hritikkumarkota@gmail.com
+
+8. Compliance
+   This extension complies with:
+   - Chrome Web Store Developer Program Policies
+   - General Data Protection Regulation (GDPR)
+   - California Consumer Privacy Act (CCPA)`
+}
 
 
  
