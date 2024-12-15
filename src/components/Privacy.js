@@ -231,8 +231,57 @@ If you have any questions or concerns regarding this privacy policy or how your 
 
 This privacy policy emphasizes the fact that your extension does not collect or share any user data, highlighting the privacy-conscious nature of the tool. Feel free to adjust specific details like the extension's name or contact information.
 
-    ` }
-  ,{
+    ` },
+  {
+    id: 'mobileviewtester',
+    name: 'Mobile View Tester',
+    policy: `Last Updated: 15-12-2024
+
+1. Introduction
+Mobile View Tester ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and protection of user information.
+
+2. Data Collection
+Our extension does not collect, store, or transmit any personal data. All operations are performed locally within your browser.
+
+3. Local Storage
+- We store only user preferences and settings locally in your browser
+- No personal information is collected or stored
+- All data remains on your device
+
+4. Data Usage
+- Settings and preferences are used solely for extension functionality
+- No data is shared with third parties
+- No analytics or tracking mechanisms are implemented
+
+5. Permissions
+Our extension requires certain permissions to function:
+- activeTab: For device simulation
+- scripting: For viewport modification
+- tabs: For simulator management
+- sidePanel: For device selection interface
+- contextMenus: For right-click access
+- storage: For saving preferences
+- alarms: For update checks
+
+6. Security
+- All operations are performed locally
+- No external servers are accessed
+- No user data is transmitted
+
+7. Updates
+We may update this privacy policy as needed. Users will be notified of any significant changes.
+
+8. Contact
+For privacy concerns or questions, contact us at:
+hritikkumarkota@gmail.com
+
+9. Compliance
+This extension complies with:
+- Chrome Web Store Developer Program Policies
+- GDPR requirements
+- CCPA requirements`
+  },
+  {
    id: 'Maintab', name: 'MainTab', policy:`Privacy Policy for MainTab Extension
 
 At MainTab, your privacy is of utmost importance to us. This Privacy Policy outlines how we handle your data when you use our Chrome extension to manage and organize your tabs. By using MainTab, you agree to the collection and use of information as described in this policy.
@@ -296,8 +345,8 @@ We may update this Privacy Policy from time to time. Any changes will be reflect
 
 7. Contact Us
 If you have any questions or concerns about this Privacy Policy or the Extension, feel free to contact us at hritikchoudharykota@gmail.com.
-`}
-,{id:'cssscanly', name:'CSS Scanly policy' , policy:`
+`},
+{id:'cssscanly', name:'CSS Scanly policy' , policy:`
   
 Privacy Policy for CSS Scanly
 
@@ -328,8 +377,8 @@ We may update our Privacy Policy from time to time to reflect any changes in the
 
 7. Contact Us
 If you have any questions or concerns about this Privacy Policy or the use of CSS Scanly, please contact us at hritikkumarkota@gmail.com
-`}
-,{
+`},
+{
   id: 'seocheckup', name: 'SEO Checkup', policy: `
 
 Here's a privacy policy for your SEO CheckUp extension:
@@ -412,8 +461,7 @@ By using SEO CheckUp, you consent to our Privacy Policy and agree to its terms.
   
 
   `
-}
-,
+},
 {
    id: 'youtube-stats-viewer', name: 'YouTube Stats Viewer', policy: `
    
@@ -522,8 +570,7 @@ By installing and using our extension, you agree to the terms outlined in this P
 This Privacy Policy was last updated on November 13, 2024.
 
    `
-}
-,
+},
 {
   id: 'fullpagescreenshot', name: 'FullPageScreenshot', policy: `
   
@@ -622,8 +669,7 @@ General Data Protection Regulation (GDPR).
 California Consumer Privacy Act (CCPA).
   
   `
-}
-,
+},
 {
   id: 'customscreensaver',
   name: 'Custom Screensaver Extension',
