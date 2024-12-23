@@ -714,6 +714,90 @@ California Consumer Privacy Act (CCPA).
    - Chrome Web Store Developer Program Policies
    - General Data Protection Regulation (GDPR)
    - California Consumer Privacy Act (CCPA)`
+},
+{
+  id: 'web-highlighter-pro',
+  name: 'Web Highlighter Pro',
+  policy: `
+# Privacy Policy for Web Highlighter Pro
+
+Last Updated: December 24, 2024
+
+## Introduction
+Web Highlighter Pro ("we", "our", or "the extension") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our browser extension.
+
+## Information We Collect
+
+### Locally Stored Information
+The following information is stored locally in your browser:
+- Text highlights you create on web pages
+- URLs of pages where highlights are made
+- User-created folders and organizational structures
+- Notes and annotations you create
+- Theme preferences and extension settings
+
+### License Verification
+We collect minimal information necessary for license verification:
+- License key validation status
+- Purchase verification through Gumroad's API
+
+## How We Use Your Information
+
+### Local Data Usage
+All your highlights, notes, and organizational data are:
+- Stored exclusively on your local device
+- Used solely to provide the extension's core functionality
+- Never transmitted to external servers
+- Accessible only to you through your browser
+
+### License Verification Usage
+License verification data is:
+- Used only to validate your purchase
+- Transmitted securely to Gumroad's API
+- Not stored or used for any other purpose
+
+## Data Protection
+
+### Local Storage
+- All data is stored securely in your browser's local storage
+- No cloud storage or synchronization
+- Data remains under your complete control
+- You can delete your data at any time through the extension's interface
+
+### Third-Party Access
+We do not:
+- Sell or rent your data to third parties
+- Share your information with advertisers
+- Transfer data to external servers (except for license verification)
+- Use your data for marketing purposes
+
+## User Rights and Control
+
+You have the right to:
+- Delete any or all of your stored data
+- Export your highlights and notes
+- Modify your saved content
+- Control all aspects of data collection through extension settings
+
+## Data Retention
+- Data remains in your browser's local storage until you choose to delete it
+- Uninstalling the extension will remove all stored data
+- No backups are maintained on external servers
+
+## Changes to Privacy Policy
+We may update this Privacy Policy from time to time. We will notify you of any changes by:
+- Posting the new Privacy Policy on our Chrome Web Store page
+- Updating the "Last Updated" date at the top of this policy
+
+## Contact Information
+If you have questions about this Privacy Policy, please contact us at:
+[hritikkumarkota@gmail.com]
+
+## Compliance
+This extension complies with:
+- Chrome Web Store Developer Program Policies
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)`
 }
 
 
