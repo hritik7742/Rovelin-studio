@@ -798,6 +798,50 @@ This extension complies with:
 - Chrome Web Store Developer Program Policies
 - General Data Protection Regulation (GDPR)
 - California Consumer Privacy Act (CCPA)`
+},
+{
+  id: 'chatgptpdf',
+  name: 'ChatGPT to PDF Export Extension',
+  policy: `Last Updated: 1 jan 2025
+
+Introduction
+Welcome to the ChatGPT to PDF Export extension! This privacy policy is designed to inform you about how we collect, use, and protect your data when you use our extension. By using the extension, you agree to the practices described in this privacy policy.
+
+Information We Do Not Collect
+We do not collect any personally identifiable information (PII) from users of the ChatGPT to PDF Export extension. We do not track or store your personal information such as your name, email address, or contact details. The extension does not collect health information, financial details, authentication credentials, personal communications, location data, web history, or any other private data.
+
+Data Usage
+The extension uses local storage solely to store your preferences related to the export formats (PDF, Word, text) and selected themes for PDF exports. This data is only stored for the purpose of providing a customized experience when exporting your conversations.
+
+- Export Preferences: We store your preferences for export formats and PDF themes to make it easier for you to use the extension.
+- Tabs and Host Permissions: The extension requires permission to access your active tabs and pages for ChatGPT and Google Gemini in order to export the content of your conversations. This permission is only used to perform the export functionality and is not used for any other purpose.
+
+No Remote Code
+The extension does not use any remote code. All code is contained within the extension package and executed locally within your browser. We do not fetch or execute any scripts from external sources.
+
+How We Protect Your Data
+We prioritize your privacy and data security. The ChatGPT to PDF Export extension is designed to operate fully within your browser. There are no external servers used, and we do not store any of your data on our servers. This means your data remains private and secure within your device.
+
+- No Data Sharing: We do not share any user data with third parties.
+- No Tracking: We do not track user activities or collect browsing data beyond what is necessary for the functionality of the extension.
+
+Data Retention
+The only data retained by the extension is related to your export preferences (such as format and theme). This data is stored locally in your browser and is deleted when you uninstall the extension. We do not retain any user data once the extension is uninstalled.
+
+Disclosures
+We certify the following disclosures:
+- We do not sell, share, or transfer your data to third parties for any purposes other than those directly related to the functionality of the extension.
+- We do not use or transfer your data to determine creditworthiness or for lending purposes.
+
+Cookies
+The extension does not use cookies to collect user data. However, if you are using our website to access the privacy policy, cookies may be used for website functionality, but this is separate from the extension itself.
+
+Changes to This Privacy Policy
+We may update this privacy policy from time to time. Any changes to this policy will be reflected on this page with an updated effective date. We encourage you to review this page periodically to stay informed about how we are protecting your information.
+
+Contact Us
+If you have any questions about this privacy policy or how we handle your data, please feel free to contact us at:
+[hritikkumarkota@gmail.com]`
 }
 
 
