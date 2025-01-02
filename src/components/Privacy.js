@@ -842,6 +842,44 @@ We may update this privacy policy from time to time. Any changes to this policy 
 Contact Us
 If you have any questions about this privacy policy or how we handle your data, please feel free to contact us at:
 [hritikkumarkota@gmail.com]`
+},
+{
+  id: 'webpdf',
+  name: 'Web2PDF',
+  policy: `Privacy Policy for Web2PDF Chrome Extension
+
+Last updated: 2 jan 2025
+
+1. Data Collection
+- Our extension only processes webpage content for conversion purposes
+- We temporarily access the current tab's URL and content during conversion
+- No personal information is collected or stored
+- All processing is done locally in your browser
+
+2. Data Usage
+- Webpage content is only used for conversion to PDF/DOC/TXT/Image formats
+- Converted files are saved directly to your computer
+- No data is transmitted to external servers
+- No analytics or tracking is implemented
+
+3. Data Storage
+- No user data is stored by the extension
+- Converted files are saved only to your local device
+- No cookies or local storage is used
+
+4. Third-Party Access
+- No data is shared with third parties
+- All conversion processes happen locally in your browser
+
+5. User Rights
+- No personal data is collected, stored, or processed
+- The extension can be uninstalled at any time
+
+6. Contact
+hritikkumarkota@gmail.com
+
+7. Updates
+This privacy policy may be updated occasionally. Users will be notified of any significant changes.`
 }
 
 
