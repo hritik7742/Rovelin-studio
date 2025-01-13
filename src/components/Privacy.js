@@ -927,6 +927,112 @@ We may update this privacy policy from time to time. We will notify you of any c
 
 ## Contact Us
 If you have any questions about this privacy policy, please contact us at hritikkumarkota@gmail.com`
+},
+{
+  id: 'sora',
+  name: 'Sora Video Downloader',
+  policy: `# Privacy Policy for Sora Video Downloader
+
+Last Updated: January 15, 2025
+
+## Introduction
+Sora Video Downloader ("we," "our," or "the extension") is committed to protecting your privacy while providing efficient video downloading capabilities from Sora's AI platform. This privacy policy outlines our data practices and your rights.
+
+## Information Collection and Usage
+
+### What We Collect:
+1. **Download Information**
+   - Video URLs and metadata for download processing
+   - Download preferences and settings
+   - Temporary data required for batch downloads
+
+2. **Local Storage**
+   - Download history (stored locally only)
+   - User preferences for the side panel
+   - Batch selection data
+
+### What We DO NOT Collect:
+- Personal identification information
+- Login credentials
+- Payment information
+- Browsing history outside of Sora
+- User analytics or tracking data
+- IP addresses or location data
+
+## Data Processing and Storage
+
+### Local Processing
+- All video downloads are processed locally on your device
+- Batch download organization occurs within your browser
+- No data is transmitted to external servers
+- ZIP file creation happens entirely on your local machine
+
+### Temporary Storage
+- Download data is temporarily stored during batch processing
+- All temporary data is automatically cleared after download completion
+- User preferences persist locally until extension removal
+
+## Permissions
+
+The extension requires specific permissions to function:
+- Access to Sora's website: For download functionality
+- Downloads API: To save videos to your device
+- Storage: For managing batch downloads and preferences
+- Side Panel: For the video selection interface
+
+## Data Security
+
+### Security Measures
+- All operations occur locally within your browser
+- No external data transmission
+- No cloud storage or processing
+- Standard browser security protects local data
+
+## User Rights and Control
+
+You have the right to:
+- Clear download history at any time
+- Remove stored preferences
+- Disable or uninstall the extension
+- Control all aspects of the download process
+
+## Third-Party Services
+
+- This extension interacts only with Sora's platform
+- No third-party analytics or tracking services
+- No advertising or marketing integrations
+- All downloads comply with Sora's terms of service
+
+## Updates and Changes
+
+We may update this privacy policy to reflect:
+- New extension features
+- Chrome Web Store policy changes
+- Security improvements
+- User feedback and concerns
+
+## Contact Information
+
+For privacy-related questions or concerns, contact us at:
+hritikkumarkota@gmail.com
+
+## Compliance
+
+This extension adheres to:
+- Chrome Web Store Developer Program Policies
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+- Sora's Platform Terms of Service
+
+## Data Deletion
+
+Upon extension removal:
+- All local data is permanently deleted
+- Download history is cleared
+- User preferences are removed
+- No residual data remains
+
+By using Sora Video Downloader, you agree to the terms outlined in this privacy policy.`
 }
 
 
