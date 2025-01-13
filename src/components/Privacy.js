@@ -880,6 +880,53 @@ hritikkumarkota@gmail.com
 
 7. Updates
 This privacy policy may be updated occasionally. Users will be notified of any significant changes.`
+},
+{
+  id: 'omnisearchplus',
+  name: 'OmniSearch Plus',
+  policy: `# Privacy Policy for OmniSearch Plus
+
+Last Updated: 13-01-2025
+
+## Introduction
+OmniSearch Plus ("we", "our", or "the extension") is committed to protecting your privacy. This privacy policy explains what information we collect, how we use it, and your rights regarding your data.
+
+## Information We Collect
+OmniSearch Plus collects and processes the following data:
+
+1. **Search Queries**: When you use our extension to perform searches, we process your search queries to redirect you to your chosen search platform.
+2. **Theme Preferences**: We store your preferred theme setting (light/dark mode) locally in your browser.
+
+## How We Use Your Information
+- Search queries are only used to redirect you to your chosen search platform (ChatGPT, Claude, YouTube, Bing, Brave, Yahoo, or DuckDuckGo).
+- Theme preferences are stored locally on your device using Chrome's storage API and are only used to maintain your visual preferences.
+
+## Data Storage
+- All theme preferences are stored locally on your device using Chrome's storage sync API.
+- We do not maintain any external servers or databases.
+- We do not store or retain your search queries after they are processed.
+
+## Data Sharing
+We do not:
+- Sell or rent your personal data to third parties
+- Share your data with external services
+- Track your browsing history
+- Collect any personally identifiable information
+
+## Third-Party Services
+When you use our extension to search, you will be redirected to third-party services (ChatGPT, Claude, YouTube, etc.). Please note that these services have their own privacy policies and terms of service that we do not control.
+
+## Your Rights
+You have the right to:
+- Clear your locally stored preferences at any time
+- Uninstall the extension, which will remove all stored data
+- Contact us with any privacy concerns
+
+## Changes to This Policy
+We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on the Chrome Web Store.
+
+## Contact Us
+If you have any questions about this privacy policy, please contact us at hritikkumarkota@gmail.com`
 }
 
 
