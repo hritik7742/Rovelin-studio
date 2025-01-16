@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './RovelinStudio.css'
+import { logEvent } from '../utils/analytics'
 
 const Contact = () => {
   useEffect(() => {
@@ -10,14 +11,30 @@ const Contact = () => {
     }
   }, []);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    logEvent('Contact', 'Form Submit', 'Contact Form');
+    // ... rest of your form submission logic
+  };
+
+  const handleInputFocus = (fieldName) => {
+    logEvent('Contact', 'Field Focus', fieldName);
+  };
+
   return (
     <div className="contact-container">
       <h1>Contact Us</h1>
       <p className="contact-subtitle">We'd love to hear from you!</p>
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" required />
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            onFocus={() => handleInputFocus('name')}
+            required 
+          />
         </div>
         <div className="form-group">
           <label htmlFor="email">Email</label>

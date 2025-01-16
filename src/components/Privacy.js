@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import './RovelinStudio.css'
+import { logEvent } from '../utils/analytics';
 
 const products = [
   { id: 'leadspry', name: 'Leadspry', policy: `
@@ -1033,6 +1034,31 @@ Upon extension removal:
 - No residual data remains
 
 By using Sora Video Downloader, you agree to the terms outlined in this privacy policy.`
+},
+{
+  id: 'Phoneandemail',
+  name: 'Email & Phone Extractor',
+  policy: `Last Updated: 17 jan 2025
+
+1. Introduction
+
+Welcome to the Email & Phone Extractor Chrome Extension ("we," "our," or "the Extension"). This Privacy Policy explains how we handle information when you use our Extension. We are committed to protecting your privacy and being transparent about our practices.
+
+2. Information Collection
+
+2.1 Contact Information Collection
+The Extension collects the following types of information from web pages you visit:
+- Email addresses
+- Phone numbers
+
+2.2 How Collection Works
+- Information is extracted only from web pages you actively visit
+- Collection occurs only when you click the Extension icon or interact with its features
+- All scanning is done locally in your browser
+- No information is collected from secure or private web pages
+
+
+By using the Extension, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.`
 }
 
 
@@ -1053,8 +1079,13 @@ const PrivacyPolicy = () => {
   const handleProductChange = (event) => {
     const value = event.target.value;
     setSelectedProduct(value);
+    logEvent('Privacy Policy', 'View', products.find(p => p.id === value)?.name);
     navigate(`/Privacy-policy/${value}`);
   };
+
+  useEffect(() => {
+    logEvent('Privacy Policy', 'View', 'General');
+  }, []);
 
   const currentPolicy = products.find(p => p.id === selectedProduct)?.policy || '';
 

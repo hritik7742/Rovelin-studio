@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import './RovelinStudio.css';
+import { logEvent } from '../utils/analytics';
 
 const Pricing = () => {
   const location = useLocation();
@@ -104,6 +105,15 @@ const Pricing = () => {
     }
   };
 
+  const handleProductSelect = (productName) => {
+    logEvent('Pricing', 'Product Select', productName);
+    setSelectedProduct(productName);
+  };
+
+  const handlePurchaseClick = (plan) => {
+    logEvent('Pricing', 'Purchase Click', `${products[selectedProduct].name} - ${plan.name}`);
+  };
+
   return (
     <div className="pricing-container">
       <div className="pricing-header">
@@ -113,7 +123,7 @@ const Pricing = () => {
         <div className="product-selector">
           <select 
             value={selectedProduct} 
-            onChange={(e) => setSelectedProduct(e.target.value)}
+            onChange={(e) => handleProductSelect(e.target.value)}
             className="product-select"
           >
             {Object.entries(products).map(([key, product]) => (
@@ -153,6 +163,7 @@ const Pricing = () => {
 
             {plan.gumroadLink ? (
               <a 
+                onClick={() => handlePurchaseClick(plan)}
                 href={plan.gumroadLink}
                 target="_blank"
                 rel="noopener noreferrer"

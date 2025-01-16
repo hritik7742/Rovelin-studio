@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './RovelinStudio.css'
 import aboutImage from '../images/web.jpg'; // Update with your actual image path
+import { logEvent } from '../utils/analytics';
 
 const About = () => {
     useEffect(() => {
@@ -9,7 +10,12 @@ const About = () => {
         if (metaDescription) {
             metaDescription.setAttribute('content', 'Learn about Rovelin Studio\'s journey, our mission to create innovative software solutions, and our commitment to excellence in Chrome extension and web application development.');
         }
+        logEvent('About', 'View', 'About Page');
     }, []);
+
+    const handleTeamSectionView = () => {
+        logEvent('About', 'Section View', 'Team Section');
+    };
 
     return (
         <div className="about-container">
@@ -55,7 +61,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="team-section">
+                <div className="team-section" onViewportEnter={handleTeamSectionView}>
                     <h2>Our Expertise</h2>
                     <div className="expertise-grid">
                         <div className="expertise-card">

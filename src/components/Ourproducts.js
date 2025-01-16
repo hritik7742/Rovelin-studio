@@ -9,6 +9,7 @@ import SEOCheckup from '../images/seocheckup.png';
 import CSSScanly from '../images/cssscanly.png';
 import FilteredYoutube from '../images/filteredyoutube.png';
 import MainTab from '../images/maintab.png';
+import { logEvent } from '../utils/analytics';
 
 const products = [
   {
@@ -94,6 +95,15 @@ const Ourproducts = () => {
     }
   }, []);
 
+  const handleProductClick = (product) => {
+    logEvent('Product', 'Click', product.name);
+    logEvent('Product', 'Category', product.category);
+  };
+
+  const handleFeatureView = (product, feature) => {
+    logEvent('Product', 'Feature View', `${product.name} - ${feature}`);
+  };
+
   return (
     <div className="products-page">
       <div className="products-hero">
@@ -114,7 +124,11 @@ const Ourproducts = () => {
               
               <div className="product-features">
                 {product.features.map((feature, idx) => (
-                  <span key={idx} className="feature-tag">
+                  <span 
+                    key={idx} 
+                    className="feature-tag"
+                    onMouseEnter={() => handleFeatureView(product, feature)}
+                  >
                     {feature}
                   </span>
                 ))}
@@ -122,6 +136,7 @@ const Ourproducts = () => {
 
               <div className="product-actions">
                 <a 
+                  onClick={() => handleProductClick(product)}
                   href={product.src} 
                   target="_blank" 
                   rel="noopener noreferrer" 
@@ -130,6 +145,7 @@ const Ourproducts = () => {
                   Install Extension
                 </a>
                 <a 
+                  onClick={() => handleProductClick(product)}
                   href={product.src} 
                   target="_blank" 
                   rel="noopener noreferrer" 
